@@ -39,3 +39,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local development
+.vscode/
+
+# OS files
+Thumbs.db
+
+# logs
+logs/
+*.log
+
+# docker
+docker-data/
+
+# temporary files
+tmp/
+temp/
