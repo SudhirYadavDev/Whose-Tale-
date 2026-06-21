@@ -56,3 +56,4 @@ docker-data/
 # temporary files
 tmp/
 temp/
+/src/generated/prisma
