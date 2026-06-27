@@ -68,7 +68,7 @@ const RoomObject = ({
   name: string;
   className?: string;
   vertical?: boolean;
-}): JSX.Element => (
+}) => (
   <div className={`${roomObjectStyle} ${className}`}>
     <span className="font-bold my-2 text-zinc-300">
       {vertical
