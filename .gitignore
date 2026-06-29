@@ -57,3 +57,6 @@ docker-data/
 tmp/
 temp/
 /src/generated/prisma
+
+# other files
+Project_Structure.txt
