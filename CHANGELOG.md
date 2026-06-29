@@ -4,6 +4,16 @@ All notable changes to **Whose Tale?** will be documented in this file.
 
 ---
 
+## [0.3.0] - 2026-06-29
+
+### Added
+- Added the suble color & 3d effect for Room Objects
+
+### Changed
+- Created the Component Folder to seperate the Reuseable Objects & Configuration to keep main page.tsx clean.
+
+---
+
 ## [0.2.0] - 2026-06-27
 
 ### Added
@@ -29,7 +39,7 @@ All notable changes to **Whose Tale?** will be documented in this file.
 
 ---
 
-## [0.1.0] - 2026-06-27
+## [0.1.0] - 2026-06-21
 
 ### Added
 - Created the **Whose Tale?** project.
