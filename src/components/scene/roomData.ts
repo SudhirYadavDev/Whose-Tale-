@@ -10,11 +10,11 @@ export type RoomObjectData = {
 export const roomObjects: RoomObjectData[] = [
   {
     name: "Sleeping Mattress",
-    description: "Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??Hey this is repeated words alright?? Hey this is repeated words alright??",
+    description: "",
     position: "top-5 left-25",
     className: "w-80 h-50",
     hoverStyle:
-      "hover:bg-slate-100/15 hover:border-slate-300/40 hover:text-slate-100",
+      "hover:bg-slate-100/15 rotate-[-1.5deg] hover:border-slate-300/40 hover:text-slate-100",
   },
   {
     name: "Window",
@@ -23,7 +23,7 @@ export const roomObjects: RoomObjectData[] = [
     className: "w-15 h-45 border-l-0",
     vertical: true,
     hoverStyle:
-      "hover:bg-sky-700/15 hover:border-sky-700/40 hover:text-sky-100",
+      "hover:bg-sky-700/15 rotate-[1.5deg] hover:border-sky-700/40 hover:text-sky-100",
   },
   {
     name: "Wardrobe",
@@ -31,7 +31,7 @@ export const roomObjects: RoomObjectData[] = [
     position: "top-5 right-100",
     className: "w-85 h-35",
     hoverStyle:
-      "hover:bg-stone-700/65 hover:border-stone-600/90 hover:text-stone-100",
+      "hover:bg-stone-700/65 rotate-[1.5deg] hover:border-stone-600/90 hover:text-stone-100",
   },
   {
     name: "Desk",
@@ -39,7 +39,7 @@ export const roomObjects: RoomObjectData[] = [
     position: "bottom-5 right-115",
     className: "w-80 h-40",
     hoverStyle:
-      "hover:bg-neutral-700/45 hover:border-neutral-500/60 hover:text-neutral-100",
+      "hover:bg-neutral-700/45 rotate-[-2deg] hover:border-neutral-500/60 hover:text-neutral-100",
   },
   {
     name: "Book Shelves",
@@ -52,18 +52,18 @@ export const roomObjects: RoomObjectData[] = [
   {
     name: "Bag",
     description: "",
-    position: "bottom-10 right-85",
+    position: "bottom-8 right-80",
     className: "w-25 h-30",
     hoverStyle:
-      "hover:bg-blue-700/15 hover:border-blue-500/40 hover:text-blue-100",
+      "hover:bg-blue-700/15 rotate-[3deg] hover:border-blue-500/40 hover:text-blue-100",
   },
   {
     name: "Big Box",
     description: "",
-    position: "top-5 left-120",
+    position: "top-10 left-120",
     className: "w-45 h-35",
     hoverStyle:
-      "hover:bg-lime-700/15 hover:border-lime-700/40 hover:text-lime-100",
+      "hover:bg-lime-700/15 rotate-[10deg] hover:border-lime-700/40 hover:text-lime-100",
   },
   {
     name: "BR & WR",
@@ -71,7 +71,7 @@ export const roomObjects: RoomObjectData[] = [
     position: "top-0 right-0",
     className: "w-90 h-45 border-r-0 border-t-0",
     hoverStyle:
-      "hover:bg-cyan-700/15 hover:border-cyan-700/40 hover:text-cyan-100",
+      "hover:bg-cyan-700/15 rotate-[-1deg] hover:border-cyan-700/40 hover:text-cyan-100",
   },
   {
     name: "Kitchen",
@@ -79,7 +79,7 @@ export const roomObjects: RoomObjectData[] = [
     position: "bottom-0 left-0",
     className: "w-70 h-100 border-l-0 border-b-0",
     hoverStyle:
-      "hover:bg-emerald-700/15 hover:border-emerald-700/40 hover:text-emerald-100",
+      "hover:bg-emerald-700/15 rotate-[0.8deg] hover:border-emerald-700/40 hover:text-emerald-100",
   },
   {
     name: "Door",
@@ -87,14 +87,22 @@ export const roomObjects: RoomObjectData[] = [
     position: "bottom-0 right-0",
     className: "w-35 h-65 border-r-0 border-b-0",
     hoverStyle:
-      "hover:bg-red-700/15 hover:border-red-700/40 hover:text-red-100",
+      "hover:bg-red-700/15 rotate-[1.5deg] hover:border-red-700/40 hover:text-red-100",
   },
   {
     name: "kotatsu",
     description: "",
-    position: "bottom-55 right-120",
+    position: "bottom-55 right-110",
     className: "w-120 h-60",
     hoverStyle:
-      "hover:bg-amber-700/15 hover:border-amber-700/40 hover:text-amber-50",
+      "hover:bg-amber-700/15 rotate-[-2.5deg] hover:border-amber-700/40 hover:text-amber-50",
+  },
+  {
+    name: "Sofie's WaterTub",
+    description: "",
+    position: "bottom-55 left-85",
+    className: "w-40 h-40",
+    hoverStyle:
+      "hover:bg-green-700/15 rotate-[-2.5deg] hover:border-green-700/40 hover:text-green-50",
   },
 ];

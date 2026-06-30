@@ -4,6 +4,18 @@ All notable changes to **Whose Tale?** will be documented in this file.
 
 ---
 
+## [0.4.0] - 2026-06-30
+
+### Added
+- Added the Panel-[Story & Items] for Room Objects.
+- Tilted all the Room Objects 
+- Added the "Turtle Tub" Room Object.
+
+### Changed
+- No changes.
+
+---
+
 ## [0.3.0] - 2026-06-29
 
 ### Added
