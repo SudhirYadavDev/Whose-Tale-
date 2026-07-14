@@ -4,6 +4,32 @@ All notable changes to **Whose Tale?** will be documented in this file.
 
 ---
 
+## [0.6.0] - 2026-07-12
+
+### Added
+- Developer Page
+
+---
+
+## [0.5.0] - 2026-07-05
+
+### Added
+- Home Page
+
+### ChangeD
+- Shifted the Game page to seperate folder and kept root page clean.
+
+---
+
+## [0.4.0] - 2026-06-30
+
+### Added
+- Added the Panel-[Story & Items] for Room Objects.
+- Tilted all the Room Objects 
+- Added the "Turtle Tub" Room Object.
+
+---
+
 ## [0.3.0] - 2026-06-29
 
 ### Added
