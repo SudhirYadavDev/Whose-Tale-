@@ -7,3 +7,12 @@ body {
   background-color: #000;
   color: white;
 }
+
+* {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+img {
+  -webkit-user-drag: none;
+}

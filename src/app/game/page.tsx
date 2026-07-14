@@ -1,26 +1,16 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import Room from "@/components/scene/Room";
+import Version from "@/components/common/Version";
 
-export default function Game() {
-  const [playerName, setPlayerName] = useState("");
-
-  // Loads player name from localStorage
-  useEffect(() => {
-    const name = localStorage.getItem("playerName");
-    if (name) {
-      setPlayerName(name);
-    }
-  }, []);
-
+export default function GamePage() {
   return (
-    <main className="pt-10 text-center text-white">
-      <h1 className="text-2xl pb-6 text-white">
-        Forest welcome's you,{" "}
-        <i className="text-green-300">
-          {playerName ? `${playerName}` : "Nobody"}
-        </i>
-      </h1>
+    <main className="min-h-screen flex flex-col text-white">
+      {/* ROOM SPACE */}
+      <Room />
+
+      {/* GAME VERSION */}
+      <Version />
     </main>
   );
 }
